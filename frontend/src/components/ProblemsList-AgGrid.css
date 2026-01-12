@@ -1,0 +1,40 @@
+.ag-grid-container {
+  background: var(--theme-color-background-1);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Customize Ag-Grid theme to match Siemens colors */
+.ag-theme-alpine {
+  --ag-header-background-color: var(--theme-color-background-1);
+  --ag-header-foreground-color: #003e52;
+  --ag-foreground-color: #003e52;
+  --ag-background-color: var(--theme-color-background-1);
+  --ag-row-hover-color: var(--theme-color-component-1);
+  --ag-selected-row-background-color: var(--theme-color-component-2);
+  --ag-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen';
+}
+
+.ag-theme-alpine .ag-header-cell-label {
+  font-weight: 600;
+}
+
+
+.ag-grid-container .table-footer {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  text-align: right;
+}
+
+.ag-grid-container .table-footer p {
+  margin: 0;
+  color: #003e52;
+  font-size: 0.9rem;
+}
+
+.loading-container p,
+.empty-state p {
+  color: #003e52;
+}

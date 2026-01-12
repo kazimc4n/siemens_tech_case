@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Global Siemens iX Pill Styles */
+ix-pill,
+.ix-pill {
+  color: #003e52 !important;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pill-open {
+  --ix-pill-background: var(--theme-color-warning-10);
+  --ix-pill-border-color: var(--theme-color-warning-40);
+  --ix-pill-color: #003e52;
+}
+
+.pill-closed {
+  --ix-pill-background: var(--theme-color-success);
+  --ix-pill-color: #003e52;
+  opacity: 0.9;
+}

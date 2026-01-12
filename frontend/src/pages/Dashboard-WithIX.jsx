@@ -31,10 +31,7 @@ const DashboardWithIX = () => {
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
-        <div>
-          <h2>Problem Dashboard (D1-D2)</h2>
-          <p>Problem Definition and Team Assignment</p>
-        </div>
+        <h2>Problem Dashboard</h2>
         <IxButton onClick={() => setIsModalOpen(true)}>
           + New Problem
         </IxButton>

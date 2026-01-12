@@ -106,7 +106,7 @@ const ProblemDetail = () => {
         ← Back to Dashboard
       </IxButton>
 
-      {/* Problem Information Card (D1-D2) */}
+      {/* Problem Information Card */}
       <div className="problem-info-card">
         <div className="card-header">
           <div>
@@ -145,11 +145,11 @@ const ProblemDetail = () => {
         </div>
       </div>
 
-      {/* Root Cause Analysis Section (D4-D5) */}
+      {/* Root Cause Analysis Section */}
       <div className="root-cause-section">
         <div className="section-header">
           <div>
-            <h2>Root Cause Analysis (D4) - 5 Why Method</h2>
+            <h2>Root Cause Analysis - 5 Why Method</h2>
             <p>Click "Add Why?" to build the cause tree. Mark the root cause and define action (D5).</p>
           </div>
           <div className="tree-stats">

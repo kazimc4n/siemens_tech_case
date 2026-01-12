@@ -39,7 +39,7 @@ const ProblemsListAgGrid = ({ problems, loading, onRowClick }) => {
     },
     {
       field: 'responsible_team',
-      headerName: 'Responsible Team (D1)',
+      headerName: 'Responsible Team',
       width: 180,
       sortable: false,
       filter: false,

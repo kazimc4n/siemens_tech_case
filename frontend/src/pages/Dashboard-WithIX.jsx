@@ -32,7 +32,10 @@ const DashboardWithIX = () => {
     <div className="dashboard-container">
       <div className="dashboard-header">
         <h2>Problem Dashboard</h2>
-        <IxButton onClick={() => setIsModalOpen(true)}>
+        <IxButton onClick={() => {
+          console.log('Button clicked, setting modal open true')
+          setIsModalOpen(true)
+        }}>
           + New Problem
         </IxButton>
       </div>

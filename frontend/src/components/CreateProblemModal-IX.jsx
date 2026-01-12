@@ -87,7 +87,7 @@ const CreateProblemModalIX = ({ isOpen, onClose, onSubmit }) => {
 
   return (
     <IxModal
-      show={isOpen}
+      style={{ display: isOpen ? 'block' : 'none' }} // Fallback visibility
       onClose={handleClose}
       closeOnBackdropClick={!submitting}
     >

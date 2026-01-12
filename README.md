@@ -13,6 +13,8 @@ Then just run the start script:
 
 ```
 
+If it gives fetch error, you need to wait almost 5 sec and refresh the page because of backend service.
+
 It will build the containers and wait for everything to be ready.
 
 - for frontend: http://localhost:3000/dashboard

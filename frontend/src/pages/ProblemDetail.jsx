@@ -176,18 +176,18 @@ const ProblemDetail = () => {
         />
 
         {rootCause && (
-          <div className="root-cause-solution">
-            <div className="solution-header">
-              <h3>✓ Root Cause Identified & Corrective Action (D5)</h3>
-            </div>
-            <div className="solution-content">
-              <div className="solution-item">
-                <strong>Root Cause:</strong>
-                <p>{rootCause.cause_text}</p>
-              </div>
-              <div className="solution-item">
-                <strong>Corrective Action Plan:</strong>
-                <p>{rootCause.action_plan}</p>
+          <div className="root-cause-solution" style={{ marginTop: '2rem' }}>
+            <div className="tree-node">
+              <div className="node-content root-cause-node">
+                <div className="node-header">
+                  <span className="root-cause-badge">✓ Root Cause Identified & Corrective Action (D5)</span>
+                </div>
+                <div className="node-text">
+                  <strong>Root Cause:</strong> {rootCause.cause_text}
+                </div>
+                <div className="node-action-plan">
+                  <strong>Corrective Action Plan:</strong> {rootCause.action_plan}
+                </div>
               </div>
             </div>
           </div>

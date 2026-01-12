@@ -23,7 +23,7 @@
 .problem-info-card {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
 
@@ -36,7 +36,7 @@
   gap: 2rem;
 }
 
-.card-header > div {
+.card-header>div {
   flex: 1;
 }
 
@@ -82,7 +82,7 @@
 .root-cause-section {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
 }
 
@@ -133,37 +133,6 @@
 
 .root-cause-solution {
   margin-top: 2rem;
-  padding: 1.5rem;
-  background: #d4edda;
-  border-left: 4px solid #28a745;
-  border-radius: 4px;
-}
-
-.solution-header {
-  margin-bottom: 1rem;
-}
-
-.solution-header h3 {
-  margin: 0;
-  color: #155724;
-}
-
-.solution-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.solution-item strong {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #155724;
-}
-
-.solution-item p {
-  margin: 0;
-  color: #155724;
-  line-height: 1.6;
 }
 
 .loading-container,

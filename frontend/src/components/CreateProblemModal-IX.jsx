@@ -91,7 +91,7 @@ const CreateProblemModalIX = ({ isOpen, onClose, onSubmit }) => {
       onClose={handleClose}
       closeOnBackdropClick={!submitting}
     >
-      <IxModalHeader>Create New Problem (D1-D2)</IxModalHeader>
+      <IxModalHeader onClose={handleClose}>Create New Problem (D1-D2)</IxModalHeader>
 
       <IxModalContent>
         <form onSubmit={handleSubmit} className="ix-modal-form">
